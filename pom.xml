@@ -20,12 +20,12 @@
         <repository>
             <id>nexus_release</id>
             <name>release</name>
-            <url>http://127.0.0.1:8085/repository/maven-releases/</url>
+            <url>https://127.0.0.1:8085/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus_snapshots</id>
             <name>snapshots</name>
-            <url>http://127.0.0.1:8085/repository/maven-snapshots/</url>
+            <url>https://127.0.0.1:8085/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -34,17 +34,17 @@
         <repository>
             <id>maven</id>
             <name>maven</name>
-            <url>http://127.0.0.1:8085/repository/maven-releases/</url>
+            <url>https://127.0.0.1:8085/repository/maven-releases/</url>
         </repository>
         <repository>
             <id>maven-central</id>
             <name>maven-central</name>
-            <url>http://127.0.0.1:8085/repository/maven-central/</url>
+            <url>https://127.0.0.1:8085/repository/maven-central/</url>
         </repository>
         <repository>
             <id>maven-snapshot</id>
             <name>maven-snapshot</name>
-            <url>http://127.0.0.1:8085/repository/maven-snapshots/</url>
+            <url>https://127.0.0.1:8085/repository/maven-snapshots/</url>
         </repository>
     </repositories>
 
